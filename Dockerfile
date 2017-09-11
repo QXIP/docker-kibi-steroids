@@ -28,7 +28,7 @@ RUN wget -q -O - https://artifacts.elastic.co/downloads/elasticsearch/elasticsea
 
 RUN cd kibana && ./bin/kibi-plugin install https://github.com/sirensolutions/sentinl/releases/download/tag-5.4/sentinl-v${KIBANA_VERSION}.zip && cd ..
 
-RUN ./elasticsearch/bin/elasticsearch-plugin install https://goo.gl/fuX8og \
+RUN ./elasticsearch/bin/elasticsearch-plugin install https://goo.gl/AYiCwy \
  && echo 'readonlyrest:' >> ./elasticsearch/config/elasticsearch.yml \
  && echo '  access_control_rules:' >> ./elasticsearch/config/elasticsearch.yml \
  && echo '    - name: "Accept all requests from localhost"' >> ./elasticsearch/config/elasticsearch.yml \
