@@ -1,6 +1,8 @@
-# KiBi on Steroids!
+![image](https://user-images.githubusercontent.com/1423657/30296932-37f27d82-9746-11e7-8049-10ccac3d4994.png)
 
-##### Description
+# Elasticsearch on Steroids!
+Water & Soap Docker container providing a ready to use FOSS Elastic stack:
+
 * Kibi 5.4.x 
 * Elasticsearch 5.4.x
 * Sentinl Alerts 5.4.x
